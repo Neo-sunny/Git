@@ -1,0 +1,11 @@
+git --version
+git config --global user.name "Your Name"
+git config --global user.email <your email address>
+git config --list
+git init 
+git status
+git remote add origin <remote-url>
+git pull origin master
+git clone <remote-url>
+git log --oneline // => To check the log of the commits to your Git repository
+git push -u origin master  // => To push the commits to the online repository
